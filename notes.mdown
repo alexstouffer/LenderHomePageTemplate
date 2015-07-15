@@ -1,0 +1,13 @@
+#Bootsrap 3 Conversion
+
++ Reformatted HTML using online converter tool to clean up syntax from copy.
++ Bootstrap 3 changed the class spanX to col-SZ-X where X is the number of column widths and SZ is the size of the viewport. Did a find and replace and modified the viewport size as needed.
++ Picture of woman was appearing too big in medium viewport width, so changed to col-sm.
++ Changed flex-caption class to use max-width set in percentage, rather than pixel width.
++ The Buttons on the left third column in content has been changed to use the full width of the div they are nested within
++ The nested columns don't use full 12 columns to give some room for the signup form 
++ modified presentation class to use padding left of 10px so that there is some room between viewport edge and textarea.
++ Fixed Signup form so that it changes to full width on smaller devices.
++ 979-992 the menu wraps creating two rows. Adjusted media query width to fix it.
++ created custom media queries to adjust the margin of container and class top-text in smaller viewport sizes.
++ adjusted line-height by 210% on smaller viewport sizes so the phone number remained legible.
